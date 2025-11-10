@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/light/assets/imgs/serv-img/1.png",
+    "title": "DESENVOLVIMENTO FULL-STACK",
+    "description": "Desenvolvimento completo de aplicações web com Next.js, React, Node.js e TypeScript. Desde o frontend até APIs robustas e banco de dados."
+  },
+  {
+    "icon": "/light/assets/imgs/serv-img/2.png",
+    "title": "SISTEMAS SaaS",
+    "description": "Criação de plataformas SaaS escaláveis com autenticação, painéis administrativos, controle de usuários e integrações com serviços externos."
+  },
+  {
+    "icon": "/light/assets/imgs/serv-img/3.png",
+    "title": "INFRAESTRUTURA & DevOps",
+    "description": "Deploy e gerenciamento em AWS, Docker, configuração de servidores, CI/CD e automação de processos para garantir alta disponibilidade."
+  },
+  {
+    "icon": "/light/assets/imgs/serv-img/4.png",
+    "title": "DESENVOLVIMENTO MOBILE",
+    "description": "Desenvolvimento de aplicativos iOS nativos com Swift, UIKit e SwiftUI, integração com Firebase e APIs REST personalizadas."
+  }
+]

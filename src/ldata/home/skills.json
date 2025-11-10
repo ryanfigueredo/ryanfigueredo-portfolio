@@ -1,0 +1,22 @@
+[
+  {
+    "photo": "/light/assets/imgs/resume/s1.png",
+    "title": "Next.js / React",
+    "persent": "95%"
+  },
+  {
+    "photo": "/light/assets/imgs/resume/s2.png",
+    "title": "Node.js / Express",
+    "persent": "90%"
+  },
+  {
+    "photo": "/light/assets/imgs/resume/s3.png",
+    "title": "TypeScript",
+    "persent": "88%"
+  },
+  {
+    "photo": "/light/assets/imgs/resume/s4.png",
+    "title": "AWS / Docker",
+    "persent": "80%"
+  }
+]

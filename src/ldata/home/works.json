@@ -1,0 +1,44 @@
+[
+  {
+    "photo": "/light/assets/imgs/works/1.jpg",
+    "title": "Elias - Sistema de Gestão de Documentos",
+    "link": "https://github.com/ryanfigueredo/eliasmvp",
+    "category": "SaaS",
+    "description": "Sistema completo de gestão de documentos com upload para S3, organização por lotes e painéis administrativos. Built with Next.js 14, Supabase, Tailwind e AWS S3."
+  },
+  {
+    "photo": "/light/assets/imgs/works/2.jpg",
+    "title": "Plataforma de Duplicatas - Quero Parcelado",
+    "link": "#",
+    "category": "FinTech",
+    "description": "Aplicação para emissão e controle de duplicatas, antecipação de recebíveis e geração de borderôs. Sistema com controle hierárquico e cálculos automatizados."
+  },
+  {
+    "photo": "/light/assets/imgs/works/3.jpg",
+    "title": "Stockly - Controle de Estoque",
+    "link": "https://github.com/ryanfigueredo/stockly",
+    "category": "Gestão",
+    "description": "Sistema de controle de estoque com cadastro de produtos, gestão de movimentações e relatórios. Ideal para varejo e pequenas empresas."
+  },
+  {
+    "photo": "/light/assets/imgs/works/4.jpg",
+    "title": "Finance Dashboard",
+    "link": "https://github.com/ryanfigueredo/finance-pedro",
+    "category": "Dashboard",
+    "description": "Dashboard financeiro para controle de gastos e receitas com visualizações interativas e relatórios detalhados."
+  },
+  {
+    "photo": "/light/assets/imgs/works/1.jpg",
+    "title": "Admin SaaS Dashboard",
+    "link": "#",
+    "category": "SaaS",
+    "description": "Painel administrativo white-label com sistema de roles, upload de contratos, rastreamento de documentos e integração com PostgreSQL."
+  },
+  {
+    "photo": "/light/assets/imgs/works/2.jpg",
+    "title": "App iOS Swift",
+    "link": "#",
+    "category": "Mobile",
+    "description": "Aplicativo iOS nativo desenvolvido em Swift com UIKit e SwiftUI, integração com Firebase e APIs REST personalizadas."
+  }
+]
