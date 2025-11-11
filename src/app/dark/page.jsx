@@ -1,6 +1,5 @@
 import ProgressScroll from "@/components/Common/ProgressScroll";
 import Cursor from "@/components/Common/cusor";
-import LoadingScreen from "@/components/Common/loader";
 import Blog from "@/components/dark/home/blog";
 import ContactUs from "@/components/dark/contact/ContactUs";
 import Info from "@/components/dark/contact/info";
@@ -27,7 +26,6 @@ function Dark() {
     <div>
       <Cursor />
       <ContactUs />
-      <LoadingScreen />
       <ProgressScroll />
 
       <div>

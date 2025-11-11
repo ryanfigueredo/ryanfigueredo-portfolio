@@ -4644,8 +4644,8 @@ img.left {
 }
 
 .language-button {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.05);
@@ -4667,6 +4667,16 @@ img.left {
 
 .language-flag {
   border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.skill-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .whatsapp-icon img {

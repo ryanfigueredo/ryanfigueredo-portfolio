@@ -1,21 +1,21 @@
 [
   {
-    "photo": "/assets/imgs/resume/s1.png",
+    "photo": "/assets/imgs/resume/s1.svg",
     "title": "Next.js / React",
     "persent": "95%"
   },
   {
-    "photo": "/assets/imgs/resume/s2.png",
+    "photo": "/assets/imgs/resume/s2.svg",
     "title": "Node.js / Express",
     "persent": "90%"
   },
   {
-    "photo": "/assets/imgs/resume/s3.png",
+    "photo": "/assets/imgs/resume/s3.svg",
     "title": "TypeScript",
     "persent": "88%"
   },
   {
-    "photo": "/assets/imgs/resume/s4.png",
+    "photo": "/assets/imgs/resume/s4.svg",
     "title": "AWS / Docker",
     "persent": "80%"
   }

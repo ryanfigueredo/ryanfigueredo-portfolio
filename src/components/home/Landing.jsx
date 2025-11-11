@@ -23,7 +23,7 @@ function Landing() {
             <div className="item mt-40">
               <div className="img">
                 <div className="screen">
-                  <a href="/dark" target="_blank">
+                  <a href="/" target="_blank">
                     <img src="demos/1.png" alt="" />
                   </a>
                 </div>

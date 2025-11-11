@@ -15,7 +15,7 @@ function Nav() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 valign">
-            <a href="/dark" className="logo logo-text">
+            <a href="/" className="logo logo-text">
               {firstName} {lastName && <span>{lastName}</span>}
             </a>
           </div>

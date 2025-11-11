@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
-import { useLanguage } from '@/context/LanguageContext';
+import { useLanguage } from "@/context/LanguageContext";
+import skillsData from "@/data/home/skills.json";
 
 function Skills() {
   const { dictionary } = useLanguage();
@@ -21,13 +22,20 @@ function Skills() {
         </div>
         <div className="col-lg-8">
           <div className="row">
-            {skills.bars.map((item) => (
+            {skills.bars.map((item, index) => {
+              const icon = skillsData[index]?.photo ?? skillsData[0]?.photo;
+
+              return (
               <div key={item.title} className="col-md-6">
                 <div className="item mb-30">
                   <div className="d-flex align-items-center mb-30">
                     <div className="mr-30">
                       <div className="img icon-img-40">
-                        <img src="/assets/imgs/resume/s1.png" alt="" />
+                        <img
+                          src={icon}
+                          alt={item.title}
+                          className="skill-icon skill-icon--dark"
+                        />
                       </div>
                     </div>
                     <div>
@@ -40,7 +48,8 @@ function Skills() {
                   <span className="value">{item.percent}</span>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

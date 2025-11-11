@@ -6,10 +6,10 @@ import { usePathname, useRouter } from "next/navigation";
 function ThemeToggle() {
   const router = useRouter();
   const pathname = usePathname();
-  const isDark = pathname?.startsWith("/dark");
+  const isDark = pathname === "/" || pathname?.startsWith("/dark");
 
   const handleToggle = () => {
-    router.push(isDark ? "/light" : "/dark");
+    router.push(isDark ? "/light" : "/");
   };
 
   const Icon = isDark ? Sun : Moon;

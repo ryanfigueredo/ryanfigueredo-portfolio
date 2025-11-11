@@ -102,25 +102,25 @@ export const dictionaries = {
           link: "https://github.com/ryanfigueredo/eliasmvp",
         },
         {
-          title: "Receivables Platform — Quero Parcelado",
+          title: "Boleto Flex — Digital Billing",
           description:
-            "FinTech platform for issuing duplicates, calculating rates, and generating PDFs with hierarchical access (Master > Assignor > Debtor).",
+            "Digital boleto platform with automated issuing, reconciliation, and integrations with PSPs such as Mercado Pago and traditional banks.",
           category: "FinTech",
+          link: "https://github.com/ryanfigueredo/boletoflex",
+        },
+        {
+          title: "KL ERP — Facilities Management",
+          description:
+            "Custom ERP for KL Facilities covering contracts, service orders, workforce scheduling, billing flows, and operational dashboards.",
+          category: "ERP",
           link: "#",
         },
         {
-          title: "Stockly Inventory Control",
+          title: "Mercadito — Marketplace Delivery",
           description:
-            "Inventory management system with product catalogue, stock movements, and reporting for small and mid-sized retailers.",
-          category: "Operations",
-          link: "https://github.com/ryanfigueredo/stockly",
-        },
-        {
-          title: "Finance Dashboard",
-          description:
-            "Financial dashboard for tracking revenue, expenses, and projections with interactive charts and exportable reports.",
-          category: "Dashboard",
-          link: "https://github.com/ryanfigueredo/finance-pedro",
+            "Marketplace inspired by iFood for neighborhood groceries with product catalog, real-time ordering, and Mercado Pago integration.",
+          category: "Marketplace",
+          link: "#",
         },
         {
           title: "Admin SaaS Dashboard",
@@ -369,38 +369,24 @@ export const dictionaries = {
           link: "https://github.com/ryanfigueredo/eliasmvp",
         },
         {
-          title: "Plataforma de Duplicatas — Quero Parcelado",
+          title: "Boleto Flex — Cobrança Digital",
           description:
-            "FinTech para emissão de duplicatas, cálculo de taxas e geração de PDFs com hierarquia Master > Cedente > Sacado.",
+            "Plataforma de boletos digitais com emissão automatizada, conciliação e integrações com PSPs como Mercado Pago e bancos tradicionais.",
           category: "FinTech",
+          link: "https://github.com/ryanfigueredo/boletoflex",
+        },
+        {
+          title: "KL ERP — KL Facilities",
+          description:
+            "ERP personalizado para a KL Facilities com módulos de contratos, ordens de serviço, escala de equipes, faturamento e dashboards.",
+          category: "ERP",
           link: "#",
         },
         {
-          title: "Stockly — Controle de Estoque",
+          title: "Mercadito — Delivery de Mercados",
           description:
-            "Sistema de estoque com cadastro de produtos, movimentações e relatórios para varejo e PMEs.",
-          category: "Operações",
-          link: "https://github.com/ryanfigueredo/stockly",
-        },
-        {
-          title: "Finance Dashboard",
-          description:
-            "Dashboard financeiro para acompanhar receitas, despesas e projeções com gráficos interativos e exports.",
-          category: "Dashboard",
-          link: "https://github.com/ryanfigueredo/finance-pedro",
-        },
-        {
-          title: "Admin SaaS Dashboard",
-          description:
-            "Back office white-label com gestão de acessos, upload de contratos, trilha de atividades e PostgreSQL.",
-          category: "SaaS",
-          link: "#",
-        },
-        {
-          title: "App Nativo em Swift",
-          description:
-            "Aplicativo iOS com Swift e SwiftUI integrado a Firebase, push notifications e APIs REST personalizadas.",
-          category: "Mobile",
+            "Marketplace estilo iFood para mercados de bairro com catálogo de produtos, pedidos em tempo real e pagamentos via Mercado Pago.",
+          category: "Marketplace",
           link: "#",
         },
       ],
