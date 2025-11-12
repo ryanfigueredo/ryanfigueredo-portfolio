@@ -51,7 +51,7 @@ function NavTop() {
               >
                 <i className="fab fa-instagram"></i>
               </a>
-              <ThemeToggle />
+
               <LanguageSwitcher />
             </div>
           </div>

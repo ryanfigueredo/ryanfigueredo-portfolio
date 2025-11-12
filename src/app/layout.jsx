@@ -1,6 +1,8 @@
 import "./globals.css";
+import Lines from "@/components/Common/Lines";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { dictionaries } from "@/i18n/dictionaries";
+import React from "react";
 
 export const metadata = {
   title: dictionaries.en.meta.siteName,
@@ -33,12 +35,21 @@ export const metadata = {
   manifest: "/site.webmanifest",
 };
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <LanguageProvider>{children}</LanguageProvider>
+    <html lang="pt-BR">
+      <head>
+        <link rel="stylesheet" href="/assets/css/plugins.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+      </head>
+      <body className="sub-bg">
+        <LanguageProvider>
+          <Lines />
+          <main>{children}</main>
+        </LanguageProvider>
       </body>
     </html>
   );
 }
+
+export default RootLayout;
