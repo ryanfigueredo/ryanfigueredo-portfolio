@@ -409,46 +409,7 @@ export const dictionaries = {
         },
       ],
     },
-    pricing: {
-      subtitle: "Modelos de contratação",
-      title: "Opções flexíveis de colaboração",
-      plans: [
-        {
-          name: "Pacote Sprint",
-          price: "R$ 5.800",
-          period: "por sprint",
-          features: [
-            "1 semana de discovery e planejamento",
-            "Entrega de features priorizadas",
-            "Reunião de revisão e handoff técnico",
-            "Suporte durante a semana do sprint",
-          ],
-        },
-        {
-          name: "CTO Fracionado",
-          price: "R$ 12.000",
-          period: "por mês",
-          features: [
-            "Definição de roadmap e liderança técnica",
-            "Rituais de time e code reviews",
-            "Backlog priorizado e acompanhamento",
-            "Até 3 iniciativas simultâneas",
-          ],
-        },
-        {
-          name: "Projeto Completo",
-          price: "Sob demanda",
-          period: "projeto",
-          features: [
-            "Estimativa de escopo e marcos",
-            "Design system e biblioteca de componentes",
-            "Setup de infraestrutura (AWS / Vercel)",
-            "Lançamento e período de hypercare",
-          ],
-        },
-      ],
-      cta: "Converse sobre seu projeto",
-    },
+
     contact: {
       subtitle: "Entre em contato",
       title: "Vamos construir algo incrível",
